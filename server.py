@@ -2,8 +2,8 @@ import asyncio
 from fastapi import FastAPI, Request
 from bot import bot, dp
 
-WEBHOOK_URL = "https://your-railway-url/webhook"
-
+# WEBHOOK_URL = "https://your-railway-url/webhook"
+WEBHOOK_URL = "https://ethnogram-manager-bot.railway.internal/webhook"
 app = FastAPI()
 
 @app.on_event("startup")
