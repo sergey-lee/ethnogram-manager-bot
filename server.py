@@ -3,7 +3,7 @@ from fastapi import FastAPI, Request
 from bot import bot, dp
 
 # WEBHOOK_URL = "https://your-railway-url/webhook"
-WEBHOOK_URL = "https://ethnogram-manager-bot.railway.internal/webhook"
+WEBHOOK_URL = "https://ethnogram-manager-bot-production.up.railway.app/webhook"
 app = FastAPI()
 
 @app.on_event("startup")
